@@ -1,0 +1,244 @@
+/* General Styles */
+body {
+    background-color: #e0e7ef; /* Soft blue-gray background for a professional look */
+    font-family: Arial, sans-serif; /* Optional: Set a professional font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #0056b3 !important;
+    color: white !important;
+}
+ .navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+/* .nav-link:hover {
+    color: #d4d4d4 !important;
+}  */
+
+/* Container Styles */
+.container {
+    margin-top: 50px;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #003d82;
+    border-color: #002b5c;
+}
+
+/* Login and Register Form Styles */
+#login, #register {
+    max-width: 500px;
+    margin: auto;
+}
+
+#courses {
+    text-align: center;
+}
+
+#course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#course-list .course {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+}
+
+.course h3 {
+    color: #0056b3;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.carousel-item {
+    position: relative;
+    height: 400px;
+}
+
+.carousel-image {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+    z-index: 1;
+}
+
+.carousel-caption {
+    z-index: 2;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.course-card {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.instructor {
+    font-style: italic;
+}
+
+.price-section {
+    margin-bottom: 10px;
+}
+
+.discounted-price {
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.rating-section {
+    margin-bottom: 10px;
+}
+
+.views {
+    margin-left: 10px;
+    color: #777;
+}
+
+.details-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+.course-card {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox */
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 1; /* Allow cards to grow and shrink equally */
+    display: flex; /* Use flexbox for card content alignment */
+    flex-direction: column; /* Align content in a column */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow on hover */
+}
+
+.card-body {
+    flex: 1; /* Allow card body to grow and shrink */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Other styles remain the same */
+
+
+
+
